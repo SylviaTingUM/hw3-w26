@@ -46,6 +46,9 @@ links in the navigation are in the hover or focus state.*/
 nav a:hover, nav a:focus {
      border: 2px dotted purple;
 }
+.skip {
+     position: relative;
+}
 .skip a{
     position: absolute;
     top: -65px;
@@ -92,19 +95,19 @@ nav a:hover, nav a:focus {
      overflow: hidden;
 }
 .accounts-image {
-     grid-row: 2/3;
+     grid-row: 2;
 }
 .onlinebanking-image {
-     grid-row: 3/4;
+     grid-row: 3;
 }
 .security-image {
-     grid-row: 4/5;
+     grid-row: 4;
 }
 .loans-image {
-     grid-row: 5/6;
+     grid-row: 5;
 }
 .contact-image {
-     grid-row: 6/7;
+     grid-row: 6;
 }
 .accounts-image img, .onlinebanking-image img, .security-image img, .loans-image img, .contact-image img {
      width: 100%;
